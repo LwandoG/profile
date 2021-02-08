@@ -7815,8 +7815,8 @@ button.bg-dark:focus {
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
-  width: auto;
-  height: auto;
+  width: 1px;
+  height: 1px;
   overflow: visible;
   clip: auto;
   white-space: normal;

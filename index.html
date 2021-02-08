@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
-    <!-- Leaflet CSS - For the map-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
     
   </head>
   <body>
@@ -35,6 +33,7 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#stack" class="nav-link link-scroll">Stack</a></li>
               <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>
               <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
@@ -66,38 +65,43 @@
               I wanted to do for the rest of my life.</p>
           </div>
           <div data-animate="fadeInUp" class="col-lg-6">
-            <div class="skill-item">
-              <div class="progress-title">Python</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">Javascript</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">HTML coding</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">Java</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">Automation Anywhere</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
-              </div>
-            </div>
+            <img src="IMG_7726.jpeg" alt="This is me - Lwando" class="image rounded-circle img-fluid">
           </div>
-          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="lwando.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5" id="stack">
+            <div class="skill5">
+              <div class="container">
+                <h2 data-animate="fadeInDown" class="title">Stack</h2>
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="skill5-counter">
+                      <p class="counter-count"><i class="fa fa-html5" aria-hidden="true"></i></p>
+                      <p class="counter-bottom">HTML5</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="skill5-counter">
+                      <p class="counter-count"><i class="fab fa-js"></i></p>
+                      <p class="counter-bottom">JS</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="skill5-counter">
+                      <p class="counter-count"><i class="fab fa-java"></i></p>
+                      <p class="counter-bottom">Java</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="skill5-counter">
+                      <p class="counter-count"><i class="fab fa-python"></i></p>
+                      <p class="counter-bottom">Python</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
         </div>
       </div>
     </section>
@@ -105,7 +109,7 @@
     <section id="testimonials" class="testimonials-section bg-gray">
       <div class="container">
         <header class="text-center mb-2">
-          <h2 data-animate="fadeInUp" class="title">My team members said<br><span>about me</span></h2>
+          <h2 data-animate="fadeInUp" class="title">Testimonials</h2>
         </header>
         <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
           <li class="item">
@@ -260,7 +264,7 @@
                         </div></a>
                       <div data-images="todo.jpeg" class="sr-only reference-description">
                         <p>A Django application for making to do lists within an organisation. The application has a full CRUD functionality implemented. Users can register and then be able to create, read, update and delete their own todo items. A link of the hosted version will be provided soon.</p>
-                        <p class="buttons text-center"><a href="https://github.com/LwandoG/django_todo_app" class="btn btn-outline-primary"><i class="fa fa-github"></i> See on Github</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        <p class="buttons text-center"><a href="https://github.com/LwandoG/django_todo_app" class="btn btn-outline-primary"><i class="fa fa-github"></i> See on Github</a></p>
                       </div>
                     </div>
                   </div>
@@ -274,7 +278,7 @@
                         </div></a>
                       <div data-images="todo.jpeg" class="sr-only reference-description">
                         <p>This is a Python desktop application where users can register an account and start budgetting. The app gives the user the option to enter their income and expenses and then show them how much they will have at the end of the month based on the budget they provided. I worked on this project with two team mates from LC Studios.</p>
-                        <p class="buttons text-center"><a href="https://github.com/Lonwabo-dev/RPA-T1/tree/main" class="btn btn-outline-primary"><i class="fa fa-github"></i> See on Github</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                        <p class="buttons text-center"><a href="https://github.com/Lonwabo-dev/RPA-T1/tree/main" class="btn btn-outline-primary"><i class="fa fa-github"></i> See on Github</a></p>
                       </div>
                     </div>
                   </div>
@@ -284,7 +288,7 @@
       </div>
     </section>
     <!-- Contact-->
-    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+    <section id="contact" data-animate="bounceIn" class="contact-section contact bg-gray">
       <div class="container">
         <header class="text-center">
           <h2 class="title">Contact me</h2>
@@ -318,14 +322,10 @@
             </form>
 
             <hr>
-            <header class="text-center">
-              <h2 class="title">My Social Links</h3>
-            </header>
-                  <ul class="list-inline banner-social-buttons">
-                    <li><a href="https://www.linkedin.com/in/lwando-gqobho-369720158/" class="btn btn-default btn-lg"><i class="fa fa-linkedin"> <span class="network-name">LinkedIn</span></i></a></li>
-                    <li><a href="https://github.com/LwandoG" class="btn btn-default btn-lg"><i class="fa fa-github"> <span class="network-name">Github</span></i></a></li>
-                    <li><a href="https://www.hackerrank.com/lwandogqobho" class="btn btn-default btn-lg"><i class="fa fa-hackerrank"> <span class="network-name">Hackerrank</span></i></a></li>
-                  </ul>
+            <div class="row banner-social-buttons justify-content-center">
+              <a href="https://www.linkedin.com/in/lwando-gqobho-369720158/" class="btn btn-default btn-lg"><i class="fa fa-linkedin"> <span class="network-name"></span></i></a>
+              <a href="https://github.com/LwandoG" class="btn btn-default btn-lg"><i class="fa fa-github"> <span class="network-name"></span></i></a>
+            </div>
           </div>
         </div>
       </div>

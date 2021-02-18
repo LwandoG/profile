@@ -69,16 +69,11 @@
 		<h1>Forbidden <span>(403)</span></h1>
 		<p>CSRF verification failed. Request aborted.</p>
 
-		<p>You are seeing this message because this HTTPS site requires a “Referer header” to be sent by your Web
-			browser, but none was sent. This header is required for security reasons, to ensure that your browser is not
-			being hijacked by third parties.</p>
-		<p>If you have configured your browser to disable “Referer” headers, please re-enable them, at least for this
-			site, or for HTTPS connections, or for “same-origin” requests.</p>
-		<p>If you are using the &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt; tag or including
-			the “Referrer-Policy: no-referrer” header, please remove them. The CSRF protection requires the “Referer”
-			header to do strict referer checking. If you’re concerned about privacy, use alternatives like &lt;a
-			rel=&quot;noreferrer&quot; …&gt; for links to third-party sites.</p>
 
+		<p>You are seeing this message because this site requires a CSRF cookie when submitting forms. This cookie is
+			required for security reasons, to ensure that your browser is not being hijacked by third parties.</p>
+		<p>If you have configured your browser to disable cookies, please re-enable them, at least for this site, or for
+			“same-origin” requests.</p>
 
 	</div>
 
@@ -87,7 +82,7 @@
 
 		<p>Reason given for failure:</p>
 		<pre>
-    Referer checking failed - no Referer.
+    CSRF cookie not set.
     </pre>
 
 
